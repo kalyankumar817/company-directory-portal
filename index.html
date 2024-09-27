@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company portal</title>
+</head>
+<style>
+    table{
+        border-collapse: collapse;
+    }
+    td,th{
+        padding:10px;
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+    }
+</style>
+<body>
+    <h1>Registration Form</h1>
+    <form>
+        <label for="username">Enter Your Full Name:</label>
+        <input type="text" placeholder="Full Name" id="username"/>
+        <br/>
+        <br/>
+        <label for="emailid">Enter Your Email:</label>
+        <input type="email" placeholder="email" id="emailid"/>
+        <br/>
+        <br/>
+        <label for="options">Department:</label>
+        <select id="options">
+            <option></option>
+            <option>CSE</option>
+            <option>EEE</option>
+            <option>MECH</option>
+            <option>ECE</option>
+        </select>
+        <br/>
+        <br/>
+        <label for="number">Enter Your id:</label>
+        <input type="number" placeholder="number" id="number"/>
+        <br/>
+        <br/>
+        <lable for="profile">Enter profile url:</lable>
+        <input type="url" placeholder="https://example.com/profile.jpg" id="profile"/>
+        <br/>
+        <br/>
+        <button type="submit">Submit</button>
+    </form>
+    <br/>
+    <br/>
+    <hr>
+
+
+    <h1>Employee List</h1>
+    <ol>
+        <li>
+            <a href="mailto:john.doe@example.com">John Doe</a>
+        </li>
+        <li>
+            <a href="mailto:jane.smith@example.com">Jane Smith</a>
+        </li>
+        <li>
+            <a href="mailto:bob.jones@example.com">Bob Jones</a>
+        </li>
+        <li>
+            <a href="mailto:alice.wonder@example.com">Alice Wonder</a>
+        </li>
+        <li>
+            <a href="mailto:charlie.brown@example.com">Charlie Brown</a>
+        </li>
+    </ol>
+    <hr>
+
+
+    <h1>Employee Details Table</h1>
+    <table border="2">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Employee ID</th>
+                <th>Department</th>
+                <th>Profile Picture</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>1</td>
+                <td>CSE</td>
+                <td><img src="https://cdn.pixabay.com/photo/2022/09/08/15/16/cute-7441224_640.jpg" alt="John's Profile Picture" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>2</td>
+                <td>EEE</td>
+                <td><img src="https://wallpapers.com/images/featured/cool-profile-picture-87h46gcobjl5e4xu.jpg" alt="Jane's Profile Picture" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>Bob Jones</td>
+                <td>3</td>
+                <td>MECH</td>
+                <td><img src="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg" alt="Bob's Profile Picture" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>Alice Wonder</td>
+                <td>4</td>
+                <td>ECE</td>
+                <td><img src="https://i.pinimg.com/originals/25/78/61/25786134576ce0344893b33a051160b1.jpg" alt="Alice's Profile Picture" width="50" height="50"></td>
+            </tr>
+            <tr>
+                <td>Charlie Brown</td>
+                <td>5</td>
+                <td>CSE</td>
+                <td><img src="https://cdn.pixabay.com/photo/2016/03/27/16/54/face-1283106_640.jpg" alt="Charlie's Profile Picture" width="50" height="50"></td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+
+
+    <h1>Embedded Map Section</h1>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.1986078112004!2d78.38741457402813!3d17.498030183408172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91f3fdf6bde9%3A0x752db86a6ab3be2a!2sInnomatics%20Research%20Labs!5e0!3m2!1sen!2sin!4v1727362713802!5m2!1sen!2sin" 
+        width="600" 
+        height="450" 
+        style="border:0;" 
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+</body>
+</html>
